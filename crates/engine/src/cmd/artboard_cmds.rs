@@ -859,5 +859,8 @@ pub fn specs() -> Vec<CommandSpec> {
 #[path = "artboard_cmds/first_board_background_tests.rs"]
 mod first_board_background_tests;
 #[cfg(test)]
+#[path = "artboard_cmds/from_group_hidden_bounds_tests.rs"]
+mod from_group_hidden_bounds_tests;
+#[cfg(test)]
 #[path = "artboard_cmds/tests.rs"]
 mod tests;
